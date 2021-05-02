@@ -7,8 +7,7 @@ fruits_magoots = ["coconut", "orange", "banana", "apples"]
 end
 
 def add_element_to_end_of_array(array, element)
-fruits_magoots = ["coconut", "orange", "banana", "apples"]
-fruits_magoots.push ("grapes")
+array.push ("element")
 end
 
 def add_element_to_start_of_array(array, element)
